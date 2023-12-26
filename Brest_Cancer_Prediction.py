@@ -17,8 +17,8 @@ import seaborn as sns
 
 #set kaggle API credentials
 import os
-os.environ['KAGGLE_USERNAME'] = '<[oscaryezfeijo]>'
-os.environ['KAGGLE_KEY']='<[4089b359818490d6ce394b801f725901]>'
+os.environ['KAGGLE_USERNAME'] = 'your_own'
+os.environ['KAGGLE_KEY']='your_own'
 
 #download dataset
 ! kaggle datasets download -d uciml/breast-cancer-wisconsin-data
